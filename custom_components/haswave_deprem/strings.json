@@ -1,0 +1,46 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "HasWave Deprem",
+        "description": "KOERI (Boğaziçi Üniv.) kaynağından deprem verisi.",
+        "data": {
+          "update_interval": "Güncelleme aralığı (saniye)",
+          "limit": "Gösterilecek deprem sayısı",
+          "min_magnitude": "Minimum büyüklük",
+          "notify_above_magnitude": "Bu büyüklük ve üzeri yeni depremde bildirim",
+          "all_earthquakes": "Tüm depremler",
+          "city": "İl",
+          "region": "Bölge"
+        },
+        "data_description": {
+          "update_interval": "Veri güncelleme aralığı (saniye). Önerilen: 300 (5 dk)",
+          "limit": "5-200 arası",
+          "min_magnitude": "Listelenecek minimum büyüklük (0 = tümü)",
+          "notify_above_magnitude": "Yeni deprem bu büyüklüğe ulaşınca kalıcı bildirim atılır",
+          "all_earthquakes": "İşaretli değilse aşağıdaki il/bölge filtresi uygulanır",
+          "city": "Örn: İSTANBUL, ANKARA",
+          "region": "Örn: MARMARA, EGE"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "KOERI verisi alınamadı. İnternet bağlantısını kontrol edin.",
+      "unknown": "Beklenmeyen bir hata oluştu."
+    },
+    "options": {
+      "step": {
+        "init": {
+          "title": "Seçenekler",
+          "data": {
+            "update_interval": "Güncelleme aralığı (saniye)",
+            "notify_above_magnitude": "Bildirim eşiği (büyüklük)"
+          }
+        }
+      }
+    }
+  },
+  "abort": {
+    "already_configured": "Bu entegrasyon zaten yapılandırılmış."
+  }
+}

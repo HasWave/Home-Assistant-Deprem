@@ -36,7 +36,7 @@ Veriler Boğaziçi Üniversitesi Kandilli Rasathanesi ve Deprem Araştırma Enst
 
 1. Home Assistant → **HACS** → **Integrations**
 2. Sağ üstteki **⋮** menüsünden **Custom repositories** seçin
-3. Repository URL: `https://github.com/HasWave/HACS-Deprem`
+3. Repository URL: `https://github.com/HasWave/Home-Assistant-Deprem`
 4. Category: **Integration** seçin
 5. **Add** butonuna tıklayın
 6. HACS → Integrations → **HasWave Deprem**'i bulun
